@@ -19,4 +19,8 @@ public class PorodOfNums {
         return outArr;
     }
 
+    public static int[] noDivision(int[] testArr) {
+        return null;
+    }
+
 }
