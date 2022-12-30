@@ -15,7 +15,6 @@ _**Follow Up: solve without using division.**_
 
 # Solution 
 
-## Solution 1
 
 The solution is simple, and can be done using 2 pass of the array, if we are allowed to use division.
  
@@ -43,5 +42,6 @@ The algo can be represented by the following diagram:
 
 **Time complexity:** O(n)
 
-**Space complexity:** O(n)
+**Space complexity:** O(n)  -> lienear space requirement (3 times of orig Array)
+
 
