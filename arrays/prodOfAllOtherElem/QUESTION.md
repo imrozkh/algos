@@ -26,7 +26,7 @@ Find the the product of all the numbers in an array (first pass), and then devid
 **Space complexity:** O(1)
 
 ## Solution 2 
-The second solution is a bit tricky, inorder to find the product of all other numbers except _i_ we need to fint the product of all the prefix and product of all the suffix and multiple both.
+The second solution is a bit tricky, inorder to find the product of all other numbers except _i_ we need to find the product of all the prefix and product of all the suffix and multiple both.
 The trick is how you can find the product of all previous numbers at an index(including the index) in a single pass and same to be done for number after the index.
 
 Lets consurtuct a prefix array in which number at index _i_ is the sum of all previous numbers till index i including _i_.
